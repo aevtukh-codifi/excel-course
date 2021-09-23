@@ -78,10 +78,8 @@ module.exports ={
           {
             test: /\.m?js$/,
             exclude: /node_modules/,
-            use: {
-              jsLoaders()
-            }
+            use: jsLoaders()
           }
-        ],
-    },
+        ]
+    }
 }
